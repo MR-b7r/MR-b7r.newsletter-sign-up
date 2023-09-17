@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Convergence&family=Open+Sans:wght@400;600;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+
+<body>
+    <div class="container hidden">
+      <div class="text-side ">
+        <div class="title">
+        <h1>Stay updated!</h1>
+        <p>join 60,000+ product managers receiving monthly updates on:</p>
+      </div>
+
+      <div class="features">
+        <div class="card">
+          <img src="assets/images/icon-success.png" alt="">
+          <p>Product discovery and building what matters</p>
+        </div>
+
+        <div class="card">
+          <img src="assets/images/icon-success.png" alt="">
+          <p>Measuring to ensure updates are a success</p>
+        </div>
+
+        <div class="card">
+          <img src="assets/images/icon-success.png" alt="">
+          <p>And much more!</p>
+        </div>
+      </div>
+
+      <div class="registeration">
+        <div class="email">
+          <p>Email address</p>
+          <input type="email " placeholder="email@company.com" id="email" required >
+          <span class="error-message">Valid email required</span>
+        </div>
+        <button id="subscription">Subscribe to monthly newletter</button>
+      </div>
+
+      </div>
+
+      <div class="img-side">
+        <img src="assets/images/illustration-sign-up-desktop.png" alt="">
+      </div>
+
+    </div>
+    <div class="success ">
+      <div class="title">
+        <img src="assets/images/icon-success.png" alt="">
+        <h1>Thanks for subscribing! </h1>
+        <p>A confirmation email has been sent to <span class="submitted-email">email@company.com</span>. Please open it and click the button inside to confirm your subscription</p>  
+      </div>
+      <button id="dismiss">Dismiss message</button>
+    </div>
+
+    <footer>
+      <div class="copyright">
+        Challenge by <a href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor </a>
+        | Coded by <a class="is-hoverable" href="https://github.com/MR-b7r" target="_blank">Haitham Bahr</a>.
+      </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
