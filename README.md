@@ -14,6 +14,8 @@ I've just completed a front-end coding challenge from @frontendmentor! 🎉
 
 You can see my solution here: https://www.frontendmentor.io/solutions/used-display-flex-in-most-cases-and-media-queries-yp0rMKHkBX
 
+Here is the live site https://mr-b7r.github.io/MR-b7r.newsletter-sign-up/
+
 Any suggestions on how I can improve are welcome!
 ## The challenge
 
