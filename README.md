@@ -10,6 +10,11 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
+I've just completed a front-end coding challenge from @frontendmentor! 🎉
+
+You can see my solution here: https://www.frontendmentor.io/solutions/used-display-flex-in-most-cases-and-media-queries-yp0rMKHkBX
+
+Any suggestions on how I can improve are welcome!
 ## The challenge
 
 Your challenge is to build out this newsletter form and get it looking as close to the design as possible.
